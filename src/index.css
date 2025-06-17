@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-white text-gray-800;
+  scroll-behavior: smooth;
+}
+
+@layer components {
+  .btn-primary {
+    @apply px-6 py-3 bg-pastel-pink hover:bg-pastel-pink-dark text-gray-800 font-medium rounded-full transition-all duration-300 shadow-md hover:shadow-lg;
+  }
+  
+  .btn-secondary {
+    @apply px-6 py-3 bg-pastel-lilac hover:bg-pastel-lilac-dark text-gray-800 font-medium rounded-full transition-all duration-300 shadow-md hover:shadow-lg;
+  }
+  
+  .section-title {
+    @apply text-3xl md:text-4xl font-montserrat font-bold mb-6 text-center;
+  }
+  
+  .gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-pastel;
+  }
+  
+  .card {
+    @apply bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl;
+  }
+}
