@@ -4,9 +4,29 @@ Proyecto de una web para un local de pastelería, desarrollada con HTML/CSS/JS.
 Podes visitar el sitio **AQUI**[https://pasteleria-rose.vercel.app/]
 
 Incluye:
-- Catálogo visual de productos.
+
+
+
+---
+- Presentación del comercio para generar cercanía
+- 
+### 🙋 About
+![About](./screenshots/about.jpg)
+
+---
+
+
+
+- Catálogo visual de productos
+---
+
+### 🖼️ Gallery
+
+
+![Gallery](./screenshots/gallery.jpg)
+
+
 - Formulario de contacto funcional.
-- Galería de imágenes de ejemplo.
 
 📌 Objetivo: mostrar estructura y lógica básica, mantener un estilo limpio y funcional.
 
