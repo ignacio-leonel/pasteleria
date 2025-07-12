@@ -1,16 +1,16 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { MessageCircle } from 'lucide-react';
+import { FaWhatsapp } from 'react-icons/fa';
 
 const WhatsAppButton: React.FC = () => {
   const handleClick = () => {
     const message = "Hola! Me gustaría hacer un pedido o consulta";
-    window.open(`https://wa.me/+5491112345678?text=${encodeURIComponent(message)}`, '_blank');
+    window.open(`https://wa.me/5491112345678?text=${encodeURIComponent(message)}`, '_blank');
   };
 
   return (
     <motion.button
-      className="fixed bottom-6 right-6 z-40 bg-pastel-green hover:bg-pastel-green-dark text-white p-4 rounded-full shadow-lg"
+      className="fixed bottom-6 right-6 z-40 bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg"
       onClick={handleClick}
       aria-label="Contactar por WhatsApp"
       initial={{ scale: 0 }}
@@ -24,7 +24,7 @@ const WhatsAppButton: React.FC = () => {
       whileHover={{ scale: 1.1 }}
       whileTap={{ scale: 0.9 }}
     >
-      <MessageCircle size={28} />
+      <FaWhatsapp size={28} />
     </motion.button>
   );
 };
